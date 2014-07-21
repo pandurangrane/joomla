@@ -4,6 +4,7 @@
  *  @license    GNU General Public License version 2, or later
  */
 // no direct access
+
 defined( '_JEXEC' ) or die( 'Restricted access' );
 jimport( 'joomla.plugin.plugin' );
 if(JVERSION >='1.6.0')
