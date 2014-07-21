@@ -3,8 +3,8 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 jimport( 'joomla.filesystem.file' );
 jimport( 'joomla.plugin.plugin' );
 
-
 require_once(JPATH_SITE.'/plugins/payment/transfirst/transfirst/helper.php');
+
 
 //load language
 $lang =JFactory::getLanguage();

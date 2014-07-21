@@ -3,6 +3,7 @@
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
+
 jimport( 'joomla.plugin.plugin' );
 if(JVERSION >='1.6.0')
 	require_once(JPATH_SITE.'/plugins/payment/pagseguro_jticketing/pagseguro_jticketing/helper.php');

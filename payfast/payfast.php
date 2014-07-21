@@ -6,6 +6,7 @@
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
+
 jimport( 'joomla.plugin.plugin' );
 if(version_compare(JVERSION, '1.6.0', 'ge')) 
 	require_once(JPATH_SITE.'/plugins/payment/payfast/payfast/helper.php');
